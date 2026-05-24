@@ -1,0 +1,83 @@
+name: Lint README
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - '**.md'
+      - '.markdownlint.json'
+      - '.github/workflows/lint.yml'
+      - '.lychee.toml'
+  pull_request:
+    paths:
+      - '**.md'
+      - '.markdownlint.json'
+      - '.github/workflows/lint.yml'
+      - '.lychee.toml'
+
+jobs:
+  markdownlint:
+    name: Markdown style
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: |
+            README.md
+            Implementations.md
+
+  style-checks:
+    name: Custom style checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for trailing whitespace
+        run: |
+          if grep -nE ' +$' README.md Implementations.md; then
+            echo "::error::Trailing whitespace found"
+            exit 1
+          fi
+
+      - name: Check for missing space after comma
+        run: |
+          if grep -nE ',[A-Za-z0-9]' README.md Implementations.md; then
+            echo "::error::Missing space after comma"
+            exit 1
+          fi
+
+      - name: Check for double spaces (excluding indentation)
+        run: |
+          if grep -nE '[^ ]  +[^ ]' README.md Implementations.md; then
+            echo "::error::Double space found inside a line"
+            exit 1
+          fi
+
+      - name: Check for tab characters
+        run: |
+          if grep -nP '\t' README.md Implementations.md; then
+            echo "::error::Tab character found (use spaces)"
+            exit 1
+          fi
+
+  link-check:
+    name: Link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run lychee link checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 8
+            --timeout 30
+            --retry-wait-time 5
+            --max-retries 2
+            --accept 200,206,403,429,999
+            README.md Implementations.md
+          fail: true

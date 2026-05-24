@@ -29,7 +29,7 @@ Implementations
 - [Knowledge-Distillation-Zoo: Pytorch implementation of various Knowledge Distillation (KD) methods](https://github.com/AberHu/Knowledge-Distillation-Zoo)
 - [A PyTorch implementation for exploring deep and shallow knowledge distillation (KD) experiments with flexibility](https://github.com/peterliht/knowledge-distillation-pytorch)
 - [Neural Network Distiller by Intel AI Lab: a Python package for neural network compression research.](https://github.com/IntelLabs/distiller)
-- [KD_Lib :  A Pytorch Knowledge Distillation library for benchmarking and extending works in the domains of Knowledge Distillation, Pruning, and Quantization. ](https://github.com/SforAiDl/KD_Lib)
+- [KD_Lib: A Pytorch Knowledge Distillation library for benchmarking and extending works in the domains of Knowledge Distillation, Pruning, and Quantization.](https://github.com/SforAiDl/KD_Lib)
 - [Vision Transformer Distillation](https://github.com/lucidrains/vit-pytorch#distillation)
 - [Cross-Layer Distillation with Semantic Calibration](https://github.com/DefangChen/SemCKD)
 - [Refine Myself by Teaching Myself: Feature Refinement via Self-Knowledge Distillation](https://github.com/MingiJi/FRSKD)

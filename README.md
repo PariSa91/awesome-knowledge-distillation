@@ -1,7 +1,7 @@
 Awesome Knowledge Distillation
 ================================
 
-### Papers
+## Papers
 - [Neural Network Ensembles](https://www.researchgate.net/publication/3191841_Neural_Network_Ensembles), L.K. Hansen, P. Salamon, 1990
 - [Neural Network Ensembles, Cross Validation, and Active Learning](https://papers.nips.cc/paper/1001-neural-network-ensembles-cross-validation-and-active-learning.pdf), Andres Krogh, Jesper Vedelsby, 1995
 - [Combining labeled and unlabeled data with co-training](https://www.cs.cmu.edu/~avrim/Papers/cotrain.pdf), A. Blum, T. Mitchell, 1998
@@ -199,10 +199,10 @@ Awesome Knowledge Distillation
 - [To Distill or Not to Distill: When Knowledge Transfer Undermines Safety of LLMs](https://openreview.net/pdf/fed763a30898a94daf0c79a480b698875f2cf105.pdf), 2026
 
 ***
-### Videos
+## Videos
 - [Dark knowledge](https://www.youtube.com/watch?v=EK61htlw8hY), Geoffrey Hinton, 2014
 - [Model Compression](https://www.youtube.com/watch?v=0WZmuryQdgg), Rich Caruana, 2016
 
 ***
-### Implementations
+## Implementations
 - [Implementations](Implementations.md)

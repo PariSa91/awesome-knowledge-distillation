@@ -1,0 +1,11 @@
+cache = true
+max_cache_age = "7d"
+
+exclude = [
+  "^https://arxiv\\.org/abs/2603\\.",
+  "^http://web\\.mit\\.edu/lilehman/"
+]
+
+exclude_path = [
+  ".git"
+]

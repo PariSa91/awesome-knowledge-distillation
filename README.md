@@ -62,6 +62,7 @@ Awesome Knowledge Distillation
 - [Large scale distributed neural network training through online distillation](https://arxiv.org/abs/1804.03235), Rohan Anil, Gabriel Pereyra, Alexandre Passos, Robert Ormandi, George E. Dahl, Geoffrey E. Hinton, 2018
 - [KDGAN: Knowledge Distillation with Generative Adversarial Networks](http://papers.nips.cc/paper/7358-kdgan-knowledge-distillation-with-generative-adversarial-networks), Xiaojie Wang, Rui Zhang, Yu Sun, Jianzhong Qi, 2018
 - [Knowledge Distillation by On-the-Fly Native Ensemble](https://arxiv.org/abs/1806.04606), Xu Lan, Xiatian Zhu, Shaogang Gong, NeurIPS 2018
+- [Dataset Distillation](https://arxiv.org/abs/1811.10959), Tongzhou Wang, Jun-Yan Zhu, Antonio Torralba, Alexei A. Efros, ICLR 2019
 - [Deep Face Recognition Model Compression via Knowledge Transfer and Distillation](https://arxiv.org/abs/1906.00619), Jayashree Karlekar, Jiashi Feng, Zi Sian Wong, Sugiri Pranata, 2019
 - [Relational Knowledge Distillation](https://arxiv.org/abs/1904.05068), Wonpyo Park, Dongju Kim, Yan Lu, Minsu Cho, 2019
 - [Graph-based Knowledge Distillation by Multi-head Attention Network](https://arxiv.org/abs/1907.02226), Seunghyun Lee, Byung Cheol Song, 2019
@@ -95,6 +96,7 @@ Awesome Knowledge Distillation
 - [Graph Representation Learning via Multi-task Knowledge Distillation](https://arxiv.org/abs/1911.05700), Jiaqi Ma, Qiaozhu Mei, 2019
 - [Deep geometric knowledge distillation with graphs](https://arxiv.org/abs/1911.03080), Carlos Lassance, Myriam Bontonou, Ghouthi Boukli Hacene, Vincent Gripon, Jian Tang, Antonio Ortega, 2019
 - [Correlation Congruence for Knowledge Distillation](https://arxiv.org/abs/1904.01802), Baoyun Peng, Xiao Jin, Jiaheng Liu, Shunfeng Zhou, Yichao Wu, Yu Liu, Dongsheng Li, Zhaoning Zhang, 2019
+- [Zero-Shot Knowledge Distillation in Deep Networks](https://arxiv.org/abs/1905.08114), Gaurav Kumar Nayak, Konda Reddy Mopuri, Vaisakh Shaj, R. Venkatesh Babu, Anirban Chakraborty, ICML 2019
 - [Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks via Self Distillation](https://arxiv.org/abs/1905.08094), Linfeng Zhang, Jiebo Song, Anni Gao, Jingwei Chen, Chenglong Bao, Kaisheng Ma, 2019 
 - [BAM! Born-Again Multi-Task Networks for Natural Language Understanding](https://arxiv.org/abs/1907.04829), Kevin Clark, Minh-Thang Luong, Urvashi Khandelwal, Christopher D. Manning, Quoc V. Le, 2019
 - [Self-Knowledge Distillation in Natural Language Processing](https://arxiv.org/abs/1908.01851), Sangchul Hahn, Heeyoul Choi, 2019
@@ -103,7 +105,6 @@ Awesome Knowledge Distillation
 - [Efficient Video Classification Using Fewer Frames](https://arxiv.org/abs/1902.10640), Shweta Bhardwaj, Mukundhan Srinivasan, Mitesh M. Khapra, 2019
 - [Retaining Privileged Information for Multi-Task Learning](http://web.mit.edu/lilehman/www/paper/LUPI_KDD2019.pdf), Fengyi Tang, Cao Xiao, Fei Wang, Jiayu Zhou, Li-Wei Lehman
 - [Data-Free Learning of Student Networks](https://arxiv.org/pdf/1904.01186.pdf), Hanting Chen, Yunhe Wang, Chang Xu, Zhaohui Yang1, Chuanjian Liu, Boxin Shi, Chunjing Xu, Chao Xu, Qi Tian, 2019 
-- [Positive-Unlabeled Compression on the Cloud](https://arxiv.org/pdf/1909.09757.pdf), Yixing Xu, Yunhe Wang, Hanting Chen, Kai Han, Chunjing Xu, Dacheng Tao, Chang Xu, 2019
 - [When Does Label Smoothing Help?](https://arxiv.org/pdf/1906.02629.pdf), Rafael Müller, Simon Kornblith, Geoffrey Hinton, 2019
 - [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/pdf/1909.10351.pdf), Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang Wang, Qun Liu, 2019
 - [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108), Victor Sanh, Lysandre Debut, Julien Chaumond, Thomas Wolf, NeurIPS 2019 EMC^2 Workshop
@@ -114,9 +115,10 @@ Awesome Knowledge Distillation
 - [Residual Knowledge Distillation](https://arxiv.org/abs/2002.09168), Mengya Gao, Yujun Shen, Quanquan Li, Chen Change Loy, 2020
 - [ResKD: Residual-Guided Knowledge Distillation](https://arxiv.org/abs/2006.04719), Xuewei Li, Songyuan Li, Bourahla Omar, Fei Wu, Xi Li, 2020
 - [Dreaming to Distill: Data-free Knowledge Transfer via DeepInversion](https://arxiv.org/abs/1912.08795), Hongxu Yin, Pavlo Molchanov, Zhizhong Li, Jose M. Alvarez, Arun Mallya, Derek Hoiem, Niraj K. Jha, Jan Kautz, 2020
+- [BERT-of-Theseus: Compressing BERT by Progressive Module Replacing](https://arxiv.org/abs/2002.02925), Canwen Xu, Wangchunshu Zhou, Tao Ge, Furu Wei, Ming Zhou, EMNLP 2020
 - [MEAL V2: Boosting Vanilla ResNet-50 to 80%+ Top-1 Accuracy on ImageNet without Tricks](https://arxiv.org/abs/2009.08453), Zhiqiang Shen, Marios Savvides, 2020
 - [MGD: Matching Guided Distillation](https://arxiv.org/abs/2008.09958), Kaiyu Yue, Jiangfan Deng, Feng Zhou, 2020
-- [Reducing the Teacher-Student Gap via Spherical Knowledge Disitllation](https://arxiv.org/abs/2010.07485), Jia Guo, Minghao Chen, Yao Hu, Chen Zhu, Xiaofei He, Deng Cai, 2020
+- [Reducing the Teacher-Student Gap via Spherical Knowledge Distillation](https://arxiv.org/abs/2010.07485), Jia Guo, Minghao Chen, Yao Hu, Chen Zhu, Xiaofei He, Deng Cai, 2020
 - [Regularizing Class-wise Predictions via Self-knowledge Distillation](https://arxiv.org/abs/2003.13964), Sukmin Yun, Jongjin Park, Kimin Lee, Jinwoo Shin, 2020
 - [Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877), Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco Massa, Alexandre Sablayrolles, Hervé Jégou, 2020
 - [Knowledge Distillation and Student-Teacher Learning for Visual Intelligence: A Review and New Outlooks](https://arxiv.org/abs/2004.05937), Lin Wang, Kuk-Jin Yoon, 2020
@@ -125,9 +127,14 @@ Awesome Knowledge Distillation
 - [MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices](https://arxiv.org/abs/2004.02984), Zhiqing Sun, Hongkun Yu, Xiaodan Song, Renjie Liu, Yiming Yang, Denny Zhou, ACL 2020
 - [MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers](https://arxiv.org/abs/2002.10957), Wenhui Wang, Furu Wei, Li Dong, Hangbo Bao, Nan Yang, Ming Zhou, NeurIPS 2020
 - [FastBERT: a Self-distilling BERT with Adaptive Inference Time](https://arxiv.org/abs/2004.02178), Weijie Liu, Peng Zhou, Zhe Zhao, Zhiruo Wang, Haotang Deng, Qi Ju, ACL 2020
+- [Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning](https://arxiv.org/abs/2006.07733), Jean-Bastien Grill, Florian Strub, Florent Altché, Corentin Tallec, Pierre H. Richemond, Elena Buchatskaya, Carl Doersch, Bernardo Avila Pires, Zhaohan Daniel Guo, Mohammad Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko, NeurIPS 2020
 - [Knowledge Distillation Meets Self-Supervision](https://arxiv.org/abs/2006.07114), Guodong Xu, Ziwei Liu, Xiaoxiao Li, Chen Change Loy, ECCV 2020
 - [GAN Compression: Efficient Architectures for Interactive Conditional GANs](https://arxiv.org/abs/2003.08936), Muyang Li, Ji Lin, Yaoyao Ding, Zhijian Liu, Jun-Yan Zhu, Song Han, CVPR 2020
 - [Emerging Properties in Self-Supervised Vision Transformers (DINO)](https://arxiv.org/abs/2104.14294), Mathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr Bojanowski, Armand Joulin, ICCV 2021
+- [Exploring Simple Siamese Representation Learning](https://arxiv.org/abs/2011.10566), Xinlei Chen, Kaiming He, CVPR 2021
+- [Channel-wise Knowledge Distillation for Dense Prediction](https://arxiv.org/abs/2011.13256), Changyong Shu, Yifan Liu, Jianfei Gao, Zheng Yan, Chunhua Shen, ICCV 2021
+- [General Instance Distillation for Object Detection](https://arxiv.org/abs/2103.02340), Xing Dai, Zeren Jiang, Zhao Wu, Yiping Bao, Zhicheng Wang, Si Liu, Erjin Zhou, CVPR 2021
+- [MiniLMv2: Multi-Head Self-Attention Relation Distillation for Compressing Pretrained Transformers](https://arxiv.org/abs/2012.15828), Wenhui Wang, Hangbo Bao, Shaohan Huang, Li Dong, Furu Wei, Findings of ACL-IJCNLP 2021
 - [MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis](https://arxiv.org/abs/2104.04767), Sergei Belousov, 2021
 - [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525), Jianping Gou, Baosheng Yu, Stephen John Maybank, Dacheng Tao, 2021
 - [Refine Myself by Teaching Myself: Feature Refinement via Self-Knowledge Distillation](https://arxiv.org/abs/2103.08273), Mingi Ji, Seungjae Shin, Seunghyun Hwang, Gibeom Park, Il-Chul Moon, 2021
@@ -136,10 +143,14 @@ Awesome Knowledge Distillation
 - [Hierarchical Self-supervised Augmented Knowledge Distillation](https://arxiv.org/abs/2107.13715), Chuanguang Yang, Zhulin An, Linhang Cai, Yongjun Xu, 2021
 - [Causal Distillation for Language Models](https://arxiv.org/abs/2112.02505), Zhengxuan Wu, Atticus Geiger, Josh Rozner, Elisa Kreiss, Hanson Lu, Thomas Icard, Christopher Potts, Noah D. Goodman, 2021
 - [How many Observations are Enough? Knowledge Distillation for Trajectory Forecasting](https://arxiv.org/abs/2203.04781), Alessio Monti, Angelo Porrello, Simone Calderara, Pasquale Coscia, Lamberto Ballan, Rita Cucchiara, 2022
+- [Localization Distillation for Dense Object Detection](https://arxiv.org/abs/2102.12252), Zhaohui Zheng, Rongguang Ye, Ping Wang, Dongwei Ren, Wangmeng Zuo, Qibin Hou, Ming-Ming Cheng, CVPR 2022
+- [iBOT: Image BERT Pre-Training with Online Tokenizer](https://arxiv.org/abs/2111.07832), Jinghao Zhou, Chen Wei, Huiyu Wang, Wei Shen, Cihang Xie, Alan Yuille, Tao Kong, ICLR 2022
+- [data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](https://arxiv.org/abs/2202.03555), Alexei Baevski, Wei-Ning Hsu, Qiantong Xu, Arun Babu, Jiatao Gu, Michael Auli, ICML 2022
 - [Decoupled Knowledge Distillation](https://arxiv.org/abs/2203.08679), Borui Zhao, Quan Cui, Renjie Song, Yiyu Qiu, Jiajun Liang, CVPR 2022
 - [Knowledge Distillation with the Reused Teacher Classifier (SimKD)](https://arxiv.org/abs/2203.14001), Defang Chen, Jian-Ping Mei, Hailin Zhang, Can Wang, Yan Feng, Chun Chen, CVPR 2022
 - [Focal and Global Knowledge Distillation for Detectors](https://arxiv.org/abs/2111.11837), Zhendong Yang, Zhe Li, Xiaohu Jiang, Yuan Gong, Zehuan Yuan, Danpei Zhao, Chun Yuan, CVPR 2022
 - [Masked Generative Distillation](https://arxiv.org/abs/2205.01529), Zhendong Yang, Zhe Li, Mingqi Shao, Dachuan Shi, Zehuan Yuan, Chun Yuan, ECCV 2022
+- [Knowledge Distillation from A Stronger Teacher](https://arxiv.org/abs/2205.10536), Tao Huang, Shan You, Fei Wang, Chen Qian, Chang Xu, NeurIPS 2022
 - [Symbolic Knowledge Distillation: from General Language Models to Commonsense Models](https://arxiv.org/abs/2110.07178), Peter West, Chandra Bhagavatula, Jack Hessel, Jena D. Hwang, Liwei Jiang, Ronan Le Bras, Ximing Lu, Sean Welleck, Yejin Choi, NAACL 2022
 - [On Distillation of Guided Diffusion Models](https://arxiv.org/abs/2210.03142), Chenlin Meng, Robin Rombach, Ruiqi Gao, Diederik P. Kingma, Stefano Ermon, Jonathan Ho, Tim Salimans, 2022
 - [Progressive Distillation for Fast Sampling of Diffusion Models](https://arxiv.org/abs/2202.00512), Tim Salimans, Jonathan Ho, 2022
@@ -150,10 +161,13 @@ Awesome Knowledge Distillation
 - [Curriculum Temperature for Knowledge Distillation](https://arxiv.org/abs/2211.16231), Zheng Li, Xiang Li, Lingfeng Yang, Borui Zhao, Renjie Song, Lei Luo, Jun Li, Jian Yang, AAAI 2023
 - [UniversalNER: Targeted Distillation from Large Language Models for Open Named Entity Recognition](https://arxiv.org/abs/2308.03279), Wenxuan Zhou, Sheng Zhang, Yu Gu, Muhao Chen, Hoifung Poon, 2023
 - [TRACT: Denoising Diffusion Models with Transitive Closure Time-Distillation](https://arxiv.org/abs/2303.04248), David Berthelot, Arnaud Autef, Jierui Lin, Dian Ang Yap, Shuangfei Zhai, Siyuan Hu, Daniel Zheng, Walter Talbott, Eric Gu, 2023
-- [Adversarial Diffusion Distillation](https://arxiv.org/abs/2311.17042), Axel Sauer, Dominik Lorenz, Andreas Blattmann, Robin Rombach, 2023
-- [One-step Diffusion with Distribution Matching Distillation](https://arxiv.org/abs/2311.18828), Tianwei Yin, Michaël Gharbi, Richard Zhang, Eli Shechtman, Fredo Durand, William T. Freeman, Taesung Park, 2023
+- [Adversarial Diffusion Distillation](https://arxiv.org/abs/2311.17042), Axel Sauer, Dominik Lorenz, Andreas Blattmann, Robin Rombach, ECCV 2024
+- [One-step Diffusion with Distribution Matching Distillation](https://arxiv.org/abs/2311.18828), Tianwei Yin, Michaël Gharbi, Richard Zhang, Eli Shechtman, Fredo Durand, William T. Freeman, Taesung Park, CVPR 2024
 - [MobileSAMv2: Faster Segment Anything to Everything](https://arxiv.org/abs/2312.09579), Chaoning Zhang, Dongshen Han, Sheng Zheng, Jinwoo Choi, Tae-Ho Kim, Choong Seon Hong, 2023
 - [Knowledge Transfer from Vision Foundation Models for Efficient Training of Small Task-specific Models](https://arxiv.org/abs/2311.18237), Raviteja Vemulapalli, Hadi Pouransari, Fartash Faghri, Sachin Mehta, Mehrdad Farajtabar, Mohammad Rastegari, Oncel Tuzel, 2023
+- [MiniLLM: On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2306.08543), Yuxian Gu, Li Dong, Furu Wei, Minlie Huang, ICLR 2024
+- [On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes](https://arxiv.org/abs/2306.13649), Rishabh Agarwal, Nino Vieillard, Yongchao Zhou, Piotr Stanczyk, Sabela Ramos, Matthieu Geist, Olivier Bachem, ICLR 2024
+- [Improved Techniques for Training Consistency Models](https://arxiv.org/abs/2310.14189), Yang Song, Prafulla Dhariwal, ICLR 2024
 - [Logit Standardization in Knowledge Distillation](https://openaccess.thecvf.com/content/CVPR2024/html/Sun_Logit_Standardization_in_Knowledge_Distillation_CVPR_2024_paper.html), Shangquan Sun, Wenqi Ren, Jingzhi Li, Rui Wang, Xiaochun Cao, 2024
 - [CLIP-KD: An Empirical Study of CLIP Model Distillation](https://arxiv.org/abs/2307.12732), Chuanguang Yang, Zhulin An, Libo Huang, Junyu Bi, Xinqiang Yu, Han Yang, Boyu Diao, Yongjun Xu, CVPR 2024
 - [VkD : Improving Knowledge Distillation using Orthogonal Projections](https://openaccess.thecvf.com/content/CVPR2024/papers/Miles_VkD_Improving_Knowledge_Distillation_using_Orthogonal_Projections_CVPR_2024_paper.pdf), Roy Miles, Ismail Elezi, Jiankang Deng, 2024
@@ -162,6 +176,8 @@ Awesome Knowledge Distillation
 - [Precision Shaking and DORPO: Conceptual Foundations of LLM Knowledge Distillation Methods](https://github.com/OpZest/Papers/blob/main/White_papers/Precision_Shaking_and_DORPO.md), Áron Cserveni, 2024
 - [Imagine Flash: Accelerating Emu Diffusion Models with Backward Distillation](https://arxiv.org/abs/2405.05224), Jonas Kohler, Albert Pumarola, Edgar Schönfeld, Artsiom Sanakoyeu, Roshan Sumbaly, Peter Vajda, Ali Thabet, 2024
 - [Trajectory Consistency Distillation: Improved Latent Consistency Distillation by Semi-Linear Consistency Function with Trajectory Mapping](https://arxiv.org/abs/2402.19159), Jianbin Zheng, Minghui Hu, Zhongyi Fan, Chaoyue Wang, Changxing Ding, Dacheng Tao, Tat-Jen Cham, 2024
+- [Score identity Distillation: Exponentially Fast Distillation of Pretrained Diffusion Models for One-Step Generation](https://arxiv.org/abs/2404.04057), Mingyuan Zhou, Huangjie Zheng, Zhendong Wang, Mingzhang Yin, Hai Huang, ICML 2024
+- [Improved Distribution Matching Distillation for Fast Image Synthesis](https://arxiv.org/abs/2405.14867), Tianwei Yin, Michaël Gharbi, Taesung Park, Richard Zhang, Eli Shechtman, Fredo Durand, William T. Freeman, NeurIPS 2024
 - [Generative Prompt Internalization](https://arxiv.org/abs/2411.15927), Haebin Shin, Lei Ji, Yeyun Gong, Sungdong Kim, Eunbi Choi, Minjoon Seo, 2024
 - [DεpS: Delayed ε-Shrinking for Faster Once-For-All Training](https://arxiv.org/abs/2407.06167), Aditya Annavajjala, Alind Khare, Animesh Agrawal, Igor Fedorov, Hugo Latapie, Myungjin Lee, Alexey Tumanov, 2024
 - [Transferring Knowledge from Large Foundation Models to Small Downstream Models](https://arxiv.org/abs/2406.07337), Shikai Qiu, Boran Han, Danielle C. Maddix, Shuai Zhang, Yuyang Wang, Andrew Gordon Wilson, 2024
@@ -172,7 +188,7 @@ Awesome Knowledge Distillation
 - [EchoDFKD: Data-Free Knowledge Distillation for Cardiac Ultrasound Segmentation using Synthetic Data](https://arxiv.org/abs/2409.07566), Grégoire Petit, Nathan Palluau, Axel Bauer, Clemens Dlaska, 2025
 - [MaKD: Multi-aspect Knowledge Distillation with Large Language Model](https://arxiv.org/pdf/2501.13341), Taegyeong Lee, et al. 2025
 - [Autoregressive Distillation of Diffusion Transformers](https://arxiv.org/abs/2504.11295), Yeongmin Kim, Sotiris Anagnostidis, Yuming Du, Edgar Schönfeld, Jonas Kohler, Markos Georgopoulos, Albert Pumarola, Ali Thabet, Artsiom Sanakoyeu, 2025
-- [A Comprehensive Survey on Knowledge Distillation], Amir M. Mansourian, Rozhan Ahmadi, Masoud Ghafouri, Amir Mohammad Babaei, Elaheh Badali Golezani, Zeynab Yasamani Ghamchi, Vida Ramezanian, Alireza Taherian, Kimia Dinashi, Amirali Miri, Shohreh Kasaei, 2025
+- [A Comprehensive Survey on Knowledge Distillation](https://arxiv.org/abs/2503.12067), Amir M. Mansourian, Rozhan Ahmadi, Masoud Ghafouri, Amir Mohammad Babaei, Elaheh Badali Golezani, Zeynab Yasamani Ghamchi, Vida Ramezanian, Alireza Taherian, Kimia Dinashi, Amirali Miri, Shohreh Kasaei, 2025
 - [Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation from Diffusion Models](https://arxiv.org/abs/2507.07104), Tiezheng Zhang, Yitong Li, Yu-cheng Chou, Jieneng Chen, Alan Yuille, Chen Wei, Junfei Xiao, 2025
 - [Knowledge Distillation and Dataset Distillation of Large Language Models: Emerging Trends, Challenges, and Future Directions ∗](https://arxiv.org/abs/2504.14772), Luyang Fang, Xiaowei Yu, Jiazhang Cai, Yongkai Chen, Shushan Wu, Zhengliang Liu, Zhenyuan Yang, Haoran Lu, Xilin Gong, Yufang Liu, Terry Ma, Wei Ruan, Ali Abbasi, Jing Zhang, Tao Wang, Ehsan Latif, Weihang You, Hanqi Jiang, Wei Liu, Wei Zhang, Soheil Kolouri, Xiaoming Zhai, Dajiang Zhu, Wenxuan Zhong, Tianming Liu, Ping Ma, 2025
 - [Few-Shot Knowledge Distillation of LLMs With Counterfactual Explanations](https://arxiv.org/abs/2510.21631),Faisal Hamman, Pasan Dissanayake, Yanjun Fu, Sanghamitra Dutta,2025

@@ -1,7 +1,8 @@
 Awesome Knowledge Distillation
 ================================
 
-## Papers
+Papers
+------
 - [Neural Network Ensembles](https://www.researchgate.net/publication/3191841_Neural_Network_Ensembles), L.K. Hansen, P. Salamon, 1990
 - [Neural Network Ensembles, Cross Validation, and Active Learning](https://papers.nips.cc/paper/1001-neural-network-ensembles-cross-validation-and-active-learning.pdf), Andres Krogh, Jesper Vedelsby, 1995
 - [Combining labeled and unlabeled data with co-training](https://www.cs.cmu.edu/~avrim/Papers/cotrain.pdf), A. Blum, T. Mitchell, 1998
@@ -35,8 +36,8 @@ Awesome Knowledge Distillation
 - [Distilling a Neural Network Into a Soft Decision Tree](https://arxiv.org/abs/1711.09784), Nicholas Frosst, Geoffrey Hinton, 2017
 - [Do deep convolutional nets really need to be deep and convolutional?](https://arxiv.org/pdf/1603.05691.pdf), Gregor Urban, Krzysztof J. Geras, Samira Ebrahimi Kahou, Ozlem Aslan, Shengjie Wang, Rich Caruana, Abdelrahman Mohamed, Matthai Philipose, Matt Richardson, ICLR 2017
 - [Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer](https://arxiv.org/pdf/1612.03928), Sergey Zagoruyko, Nikos Komodakis, ICLR 2017
-- [Data-Free Knowledge Distillation For Deep Neural Networks](http://raphagl.com/research/replayed-distillation/), Raphael Gontijo Lopes, Stefano Fenu, 2017
-- [Local Affine Approximators for Improving Knowledge Transfer](https://lld-workshop.github.io/papers/LLD_2017_paper_28.pdf), Suraj Srinivas and Francois Fleuret, 2017
+- [Data-Free Knowledge Distillation for Deep Neural Networks](https://arxiv.org/abs/1710.07535), Raphael Gontijo Lopes, Stefano Fenu, Thad Starner, 2017
+- [Local Affine Approximators for Improving Knowledge Transfer](https://lld-workshop.github.io/2017/papers/LLD_2017_paper_28.pdf), Suraj Srinivas and Francois Fleuret, 2017
 - [Best of Both Worlds: Transferring Knowledge from Discriminative Learning to a Generative Visual Dialog Model](http://papers.nips.cc/paper/6635-best-of-both-worlds-transferring-knowledge-from-discriminative-learning-to-a-generative-visual-dialog-model.pdf), Jiasen Lu, Anitha Kannan, Jianwei Yang, Devi Parikh, Dhruv Batra, NeurIPS 2017
 - [Learning Efficient Object Detection Models with Knowledge Distillation](http://papers.nips.cc/paper/6676-learning-efficient-object-detection-models-with-knowledge-distillation.pdf), Guobin Chen, Wongun Choi, Xiang Yu, Tony Han, Manmohan Chandraker, NeurIPS 2017
 - [A Gift from Knowledge Distillation: Fast Optimization, Network Minimization and Transfer Learning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yim_A_Gift_From_CVPR_2017_paper.pdf), Junho Yim, Donggyu Joo, Jihoon Bae, Junmo Kim, CVPR 2017
@@ -153,7 +154,7 @@ Awesome Knowledge Distillation
 - [iBOT: Image BERT Pre-Training with Online Tokenizer](https://arxiv.org/abs/2111.07832), Jinghao Zhou, Chen Wei, Huiyu Wang, Wei Shen, Cihang Xie, Alan Yuille, Tao Kong, ICLR 2022
 - [Focal and Global Knowledge Distillation for Detectors](https://arxiv.org/abs/2111.11837), Zhendong Yang, Zhe Li, Xiaohu Jiang, Yuan Gong, Zehuan Yuan, Danpei Zhao, Chun Yuan, CVPR 2022
 - [Symbolic Knowledge Distillation: from General Language Models to Commonsense Models](https://arxiv.org/abs/2110.07178), Peter West, Chandra Bhagavatula, Jack Hessel, Jena D. Hwang, Liwei Jiang, Ronan Le Bras, Ximing Lu, Sean Welleck, Yejin Choi, NAACL 2022
-- [Information Theoretic Representation Distillation](https://bmvc2022.mpi-inf.mpg.de/0385.pdf), Roy Miles, Adrian Lopez Rodriguez, Krystian Mikolajczyk, BMVC 2022
+- [Information Theoretic Representation Distillation](https://arxiv.org/abs/2112.00459), Roy Miles, Adrian Lopez Rodriguez, Krystian Mikolajczyk, BMVC 2022
 - [Consistency Models](https://arxiv.org/abs/2303.01469), Yang Song, Prafulla Dhariwal, Mark Chen, Ilya Sutskever, ICML 2023
 - [TRACT: Denoising Diffusion Models with Transitive Closure Time-Distillation](https://arxiv.org/abs/2303.04248), David Berthelot, Arnaud Autef, Jierui Lin, Dian Ang Yap, Shuangfei Zhai, Siyuan Hu, Daniel Zheng, Walter Talbott, Eric Gu, 2023
 - [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301), Cheng-Yu Hsieh, Chun-Liang Li, Chih-Kuan Yeh, Hootan Nakhost, Yasuhisa Fujii, Alexander Ratner, Ranjay Krishna, Chen-Yu Lee, Tomas Pfister, Findings of ACL 2023
@@ -199,10 +200,12 @@ Awesome Knowledge Distillation
 - [To Distill or Not to Distill: When Knowledge Transfer Undermines Safety of LLMs](https://openreview.net/pdf/fed763a30898a94daf0c79a480b698875f2cf105.pdf), 2026
 
 ***
-## Videos
-- [Dark knowledge](https://www.youtube.com/watch?v=EK61htlw8hY), Geoffrey Hinton, 2014
+Videos
+------
+- [Dark knowledge](https://web.archive.org/web/20221230172414/https://www.youtube.com/watch?v=EK61htlw8hY), [https://www.ttic.edu/dls-2014-2015/](https://www.ttic.edu/dls-2014-2015/), Geoffrey Hinton, 2014
 - [Model Compression](https://www.youtube.com/watch?v=0WZmuryQdgg), Rich Caruana, 2016
 
 ***
-## Implementations
+Implementations
+---------------
 - [Implementations](Implementations.md)
